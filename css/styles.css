@@ -1,0 +1,56 @@
+
+
+body, nav, header, section, article {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+section:before, section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body{
+	background-color: pink;
+}
+
+nav{
+	height: 150px;
+	background: black;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	height: 400px;
+	background: darkorange;
+	width: 100%;
+	margin: 0 auto;
+}
+
+main section {
+	width: 100%;
+	margin: 0 auto;
+	background-color: grey;
+}
+main section div{
+	height: 300px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: green;
+	
+}
+
+section div:nth-child(2n) {
+	background: blue;
+}
+
+footer{
+	height: 200px;
+	background: black;
+	width: 100%;
+	margin: 0 auto;
+}

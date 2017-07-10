@@ -1,0 +1,43 @@
+@media screen and (min-width:768px) {
+
+	main section div{
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	}
+
+	section div:nth-child(2n) {
+		background: lightblue;
+	}
+}
+
+@media screen and (min-width:1024px) {
+
+	main section div{
+	width: 50%;
+	background-color: red;
+	float: left;
+	}
+
+	section div:nth-child(2n) {
+		background: orange;
+	}
+}
+
+
+@media screen and (min-width:1366px) {
+
+	main section div{
+	width: 8.333333333333333%;
+	background-color: green;
+	float: left;
+	}
+
+	section div:nth-child(2n) {
+		background: darkblue;
+	}
+}
+
+
+
+
